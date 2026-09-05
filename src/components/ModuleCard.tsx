@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { ModuleInfo } from "@/lib/modules";
 
 const STATUS_STYLES: Record<ModuleInfo["status"], string> = {
@@ -12,9 +13,10 @@ const STATUS_LABEL: Record<ModuleInfo["status"], string> = {
 
 export function ModuleCard({ module }: { module: ModuleInfo }) {
   const live = module.status === "live";
-  return (
+
+  const card = (
     <article
-      className={`group relative flex flex-col gap-4 rounded-2xl border p-6 transition
+      className={`group relative flex h-full flex-col gap-4 rounded-2xl border p-6 transition
         ${
           live
             ? "border-edge bg-surface hover:border-accent/50 hover:shadow-[0_0_40px_-12px_rgba(99,102,241,0.35)]"
@@ -46,5 +48,13 @@ export function ModuleCard({ module }: { module: ModuleInfo }) {
         </span>
       )}
     </article>
+  );
+
+  return live ? (
+    <Link href={`/${module.id}`} className="block h-full">
+      {card}
+    </Link>
+  ) : (
+    card
   );
 }
