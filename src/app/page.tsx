@@ -65,7 +65,7 @@ export default async function Home() {
             <div>
               <h2 className="text-2xl font-semibold text-white">One platform, many tools</h2>
               <p className="mt-1 text-sm text-slate-400">
-                Pick an entity, pick a tool. New modules ship wave by wave.
+                Pick an entity, pick a tool. New modules ship regularly.
               </p>
             </div>
           </div>

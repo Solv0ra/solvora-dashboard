@@ -165,7 +165,7 @@ function GeneratePanel({
     setMessage(null);
     if (engineState !== "online" || !engineUrl) {
       setMessage(
-        "The reporting pipeline comes online once the indexer is connected — this module is wired and waiting on backend data. Check back after Wave 1.",
+        "Reports are coming soon — this module is wired and ready, waiting for live on-chain data to flow in.",
       );
       return;
     }
