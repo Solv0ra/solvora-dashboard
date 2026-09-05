@@ -1,6 +1,6 @@
 # Solvora Dashboard
 
-[![Frontend CI](https://github.com/thegreatfeez/solvora-dashboard/actions/workflows/ci-frontend.yml/badge.svg)](https://github.com/thegreatfeez/solvora-dashboard/actions/workflows/ci-frontend.yml)
+[![Frontend CI](https://github.com/Solv0ra/solvora-dashboard/actions/workflows/ci-frontend.yml/badge.svg)](https://github.com/Solv0ra/solvora-dashboard/actions/workflows/ci-frontend.yml)
 ![Soroban](https://img.shields.io/badge/Built%20on-Soroban-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -56,8 +56,8 @@ Connect Freighter ──► Entity picker ──► Module switcher
 | | |
 |---|---|
 | **Frontend** | TBD (deployed with Phase 3 of the build plan) |
-| **Engine API** | [solvora-engine](https://github.com/thegreatfeez/solvora-engine) |
-| **Contracts** | [solvora-contracts](https://github.com/thegreatfeez/solvora-contracts) |
+| **Engine API** | [solvora-engine](https://github.com/Solv0ra/solvora-engine) |
+| **Contracts** | [solvora-contracts](https://github.com/Solv0ra/solvora-contracts) |
 
 ---
 
@@ -111,7 +111,7 @@ docs/             Architecture, setup, design, security, deployment, FAQ, glossa
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/thegreatfeez/solvora-dashboard.git
+git clone https://github.com/Solv0ra/solvora-dashboard.git
 cd solvora-dashboard
 cp .env.example .env.local
 npm ci

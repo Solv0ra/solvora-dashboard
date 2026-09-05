@@ -17,14 +17,13 @@ Read the [README](../README.md) and [Architecture](./ARCHITECTURE.md) for produc
 ## Finding work
 
 Issues are coordinated through **solvora-meta**
-([issues.md](https://github.com/thegreatfeez/solvora-meta/blob/main/issues.md),
-[issue-tracker.md](https://github.com/thegreatfeez/solvora-meta/blob/main/issue-tracker.md)).
+(issues.md and issue-tracker.md in the local solvora-meta coordination repo).
 Pick an issue labeled `frontend`, claim it, and follow the workflow below.
 
 ## Development workflow
 
 ```bash
-git clone https://github.com/thegreatfeez/solvora-dashboard.git
+git clone https://github.com/Solv0ra/solvora-dashboard.git
 cd solvora-dashboard
 cp .env.example .env.local
 npm ci

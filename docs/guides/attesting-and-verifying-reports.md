@@ -36,7 +36,7 @@ Because only the entity owner can attest (contract-enforced), a verified attesta
 
 You can also verify manually against stellar.expert: fetch the attestation record and
 compare `report_hash` with `sha256(canonical(…))` — see the engine's
-[verification example](https://github.com/thegreatfeez/solvora-engine/blob/main/docs/API.md#verification-example-re-verify-an-attestation).
+[verification example](https://github.com/Solv0ra/solvora-engine/blob/main/docs/API.md#verification-example-re-verify-an-attestation).
 
 ## Caveats
 

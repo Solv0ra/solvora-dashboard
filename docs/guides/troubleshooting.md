@@ -40,5 +40,5 @@ Common problems and fixes for the Solvora dashboard.
 | Stale data | Hard-refresh (Cmd+Shift+R); the app caches modules/entities per session |
 
 Still stuck? Open a question in the
-[solvora-meta discussions](https://github.com/thegreatfeez/solvora-meta/discussions) with the
+solvora-meta coordination repo with the
 console output and network (testnet) info.

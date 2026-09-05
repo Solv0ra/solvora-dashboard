@@ -30,7 +30,7 @@ testnet via [Friendbot](https://friendbot.stellar.org) — see
 ### 3. Clone and install
 
 ```bash
-git clone https://github.com/thegreatfeez/solvora-dashboard.git
+git clone https://github.com/Solv0ra/solvora-dashboard.git
 cd solvora-dashboard
 cp .env.example .env.local
 npm ci
@@ -78,4 +78,4 @@ Open http://localhost:3001 (or the port Next.js prints).
 | Reports show "INDEXER_LAGGING" | Start the engine indexer (`npm run index` in solvora-engine) so data exists |
 | Port conflict | `next dev -p 3001` |
 
-Questions? Ask in the [solvora-meta discussions](https://github.com/thegreatfeez/solvora-meta/discussions).
+Questions? Ask in the solvora-meta coordination repo.

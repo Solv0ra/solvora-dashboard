@@ -139,5 +139,5 @@ immediately; polling fallback every 30s for active queries (same pattern Accord 
 | [GLOSSARY.md](GLOSSARY.md) | Terms used across the docs |
 | [guides/](guides/) | End-user guides |
 | [tutorials/](tutorials/) | Step-by-step walkthroughs |
-| engine [API.md](https://github.com/thegreatfeez/solvora-engine/blob/main/docs/API.md) | Engine endpoints this dashboard consumes |
-| contracts [CONTRACT_API.md](https://github.com/thegreatfeez/solvora-contracts/blob/main/docs/CONTRACT_API.md) | Contract functions this dashboard calls |
+| engine [API.md](https://github.com/Solv0ra/solvora-engine/blob/main/docs/API.md) | Engine endpoints this dashboard consumes |
+| contracts [CONTRACT_API.md](https://github.com/Solv0ra/solvora-contracts/blob/main/docs/CONTRACT_API.md) | Contract functions this dashboard calls |

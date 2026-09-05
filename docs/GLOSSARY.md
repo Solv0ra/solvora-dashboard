@@ -28,7 +28,7 @@ testnet throughout development; mainnet is a v1.0 milestone.
 Soroban storage rent mechanism: entries expire unless extended. Solvora uses a
 threshold-and-bump pattern (extend on access), so active entities stay alive. If an entry
 expires, the network deletes it permanently. See also:
-[Entity](#entity), contracts [ARCHITECTURE.md §3.6](https://github.com/thegreatfeez/solvora-contracts/blob/main/docs/ARCHITECTURE.md#36-ttl-bump-strategy).
+[Entity](#entity), contracts [ARCHITECTURE.md §3.6](https://github.com/Solv0ra/solvora-contracts/blob/main/docs/ARCHITECTURE.md#36-ttl-bump-strategy).
 
 **WASM**
 WebAssembly — the compiled form of Soroban contracts. Deploying a contract deploys its WASM;
@@ -71,16 +71,16 @@ and dashboards.
 **Entity**
 A registered reporting unit on-chain: an owned set of contract/account addresses with a
 label and a type. The atomic subject of every Solvora tool. See also:
-contracts [ARCHITECTURE.md §4](https://github.com/thegreatfeez/solvora-contracts/blob/main/docs/ARCHITECTURE.md#4-entity-lifecycle).
+contracts [ARCHITECTURE.md §4](https://github.com/Solv0ra/solvora-contracts/blob/main/docs/ARCHITECTURE.md#4-entity-lifecycle).
 
 **EntityType**
 `Treasury`, `Amm`, `LendingMarket`, or `Generic`. The value selects which engine adapter
-parses the entity's events. See also: contracts [CONTRACT_API.md](https://github.com/thegreatfeez/solvora-contracts/blob/main/docs/CONTRACT_API.md).
+parses the entity's events. See also: contracts [CONTRACT_API.md](https://github.com/Solv0ra/solvora-contracts/blob/main/docs/CONTRACT_API.md).
 
 **Adapter**
 Engine component that maps raw Soroban events for an `EntityType` to `AccountingEntry`s.
 The MVP ships a `GenericTreasuryAdapter`; AMM and lending adapters are roadmap items.
-See also: engine [ARCHITECTURE.md §2.2](https://github.com/thegreatfeez/solvora-engine/blob/main/docs/ARCHITECTURE.md#22-adapter-framework).
+See also: engine [ARCHITECTURE.md §2.2](https://github.com/Solv0ra/solvora-engine/blob/main/docs/ARCHITECTURE.md#22-adapter-framework).
 
 **AccountingEntry**
 A single derived financial fact — inflow, outflow, or balance change — with asset, amount
@@ -95,7 +95,7 @@ engine API until shipped (`501`).
 An on-chain record binding a report's canonical hash to an entity, a ledger sequence, a
 report type, and the entity owner as signer. Read the flow in
 [verifying-your-attestations.md](./guides/verifying-your-attestations.md) and contracts
-[ARCHITECTURE.md §5](https://github.com/thegreatfeez/solvora-contracts/blob/main/docs/ARCHITECTURE.md#5-attestation-flow).
+[ARCHITECTURE.md §5](https://github.com/Solv0ra/solvora-contracts/blob/main/docs/ARCHITECTURE.md#5-attestation-flow).
 
 **Canonical hash**
 SHA-256 over a deterministic serialization of a report (`{entity_id, ledger_sequence,
@@ -105,7 +105,7 @@ attestation contract anchors.
 **Module**
 A named tool in the product platform: **Financial Reporting** (live), **Invariant / Risk
 Monitor** and **Proof of Reserve** (coming soon). The list and statuses come from the
-engine's `/modules` registry — see engine [ARCHITECTURE.md §3](https://github.com/thegreatfeez/solvora-engine/blob/main/docs/ARCHITECTURE.md#3-module-registry-backend-driven).
+engine's `/modules` registry — see engine [ARCHITECTURE.md §3](https://github.com/Solv0ra/solvora-engine/blob/main/docs/ARCHITECTURE.md#3-module-registry-backend-driven).
 
 **Module registry**
 The engine endpoint (`GET /modules`) that tells the dashboard which modules exist and

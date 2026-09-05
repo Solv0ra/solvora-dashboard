@@ -28,5 +28,5 @@ within 72 hours.
 ## Related
 
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — data sources and trust boundaries
-- engine [SECURITY.md](https://github.com/thegreatfeez/solvora-engine/blob/main/docs/SECURITY.md) — backend threat model
-- contracts [SECURITY.md](https://github.com/thegreatfeez/solvora-contracts/blob/main/docs/SECURITY.md) — on-chain threat model
+- engine [SECURITY.md](https://github.com/Solv0ra/solvora-engine/blob/main/docs/SECURITY.md) — backend threat model
+- contracts [SECURITY.md](https://github.com/Solv0ra/solvora-contracts/blob/main/docs/SECURITY.md) — on-chain threat model

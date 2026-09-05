@@ -32,7 +32,7 @@ engine's adapters for them are on the roadmap — the picker shows them as "comi
 ## For Developers
 
 ### Where do issues live?
-All issues are coordinated in the [solvora-meta repository](https://github.com/thegreatfeez/solvora-meta)
+All issues are coordinated in the solvora-meta coordination repository (kept local)
 (`issues.md` backlog, `issue-tracker.md` ledger, `current-issue.md` template), grouped by
 repo. Pick one labeled `frontend`.
 
@@ -44,7 +44,7 @@ never hardcodes what's live — a backend change alone can promote a module.
 The attestation anchor is SHA-256 over a *canonical serialization* of the report (sorted
 keys, fixed number format). If we hashed raw JSON, the same report might hash differently
 depending on serialization. The rule is shared with the engine
-([ARCHITECTURE.md](https://github.com/thegreatfeez/solvora-engine/blob/main/docs/ARCHITECTURE.md#4-data-model)).
+([ARCHITECTURE.md](https://github.com/Solv0ra/solvora-engine/blob/main/docs/ARCHITECTURE.md#4-data-model)).
 
 ### Why can't I delete an entity?
 Entities are immutable in the MVP by design — deleting them would break the audit trail for
