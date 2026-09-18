@@ -1,4 +1,5 @@
 import { ConnectButton } from "@/components/ConnectButton";
+import { EntityManager } from "@/components/EntityManager";
 import { ModuleCard } from "@/components/ModuleCard";
 import { getModules } from "@/lib/modules";
 
@@ -26,19 +27,19 @@ export default async function Home() {
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-edge bg-surface px-3 py-1 text-xs text-slate-400">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-              Built on Stellar Soroban
+              Built on Ethereum
             </span>
             <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
               On-chain financial
               <br />
               intelligence for{" "}
               <span className="bg-gradient-to-r from-accent-soft to-mint bg-clip-text text-transparent">
-                Soroban
+                Ethereum
               </span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
               Register an on-chain entity — a treasury, a protocol, a multisig — and run
-              financial tools against it. Balance sheets and cash flow from real ledger
+              financial tools against it. Balance sheets and cash flow from real on-chain
               data, with every report anchored on-chain and verifiable by anyone.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -47,14 +48,6 @@ export default async function Home() {
                 className="rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-white transition hover:bg-accent-soft"
               >
                 Explore the modules
-              </a>
-              <a
-                href="https://github.com/Solv0ra"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-full border border-edge bg-surface px-5 py-2.5 text-sm font-medium text-slate-300 transition hover:border-accent/50 hover:text-white"
-              >
-                View source
               </a>
             </div>
           </div>
@@ -75,19 +68,13 @@ export default async function Home() {
             ))}
           </div>
         </section>
+
+        <EntityManager />
       </main>
 
       <footer className="border-t border-edge/60">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 text-xs text-slate-500">
-          <span>Solvora — financial intelligence on Stellar Soroban.</span>
-          <a
-            href="https://github.com/Solv0ra"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-slate-300"
-          >
-            GitHub ↗
-          </a>
+          <span>Solvora — financial intelligence on Ethereum.</span>
         </div>
       </footer>
     </div>

@@ -29,7 +29,7 @@ export function ConnectButton() {
       disabled={pending || !available}
       className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-soft disabled:cursor-not-allowed disabled:opacity-50"
     >
-      {!available ? "Install Freighter" : pending ? "Connecting…" : "Connect Wallet"}
+      {!available ? "Install MetaMask" : pending ? "Connecting…" : "Connect Wallet"}
     </button>
   );
 }

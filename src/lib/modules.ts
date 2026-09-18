@@ -16,21 +16,21 @@ export const DEFAULT_MODULES: ModuleInfo[] = [
     name: "Financial Reporting",
     status: "live",
     description:
-      "Turn raw Soroban ledger activity into real accounting reports — balance sheets and cash flow statements.",
+      "Turn raw on-chain activity into real accounting reports — balance sheets and cash flow statements.",
   },
   {
     id: "risk-monitor",
     name: "Invariant / Risk Monitor",
     status: "coming_soon",
     description:
-      "Watch registered protocols for invariant breaks, suspicious admin actions, and TTL / storage expiry risk.",
+      "Watch registered protocols for invariant breaks and suspicious admin actions.",
   },
   {
     id: "proof-of-reserve",
     name: "Proof of Reserve",
     status: "coming_soon",
     description:
-      "A public attestation dashboard for BTC-backed and wrapped assets on Stellar.",
+      "A public attestation dashboard for BTC-backed and wrapped assets on Ethereum.",
   },
 ];
 
